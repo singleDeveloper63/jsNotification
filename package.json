@@ -1,0 +1,22 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singleDeveloper63/jsNotification.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singleDeveloper63/jsNotification/issues"
+  },
+  "homepage": "https://github.com/singleDeveloper63/jsNotification#readme",
+  "dependencies": {
+    "push.js": "^1.0.12"
+  }
+}

@@ -7,24 +7,13 @@
 </head>
 <body>
     <button onclick="Notify()">Notification</button>
+    <script src="./node_modules/push.js/bin/push.min.js"></script>
     <script>
+        
         function Notify(){
-            Notification.requestPermission((permission)=>{
-                if(permission === "granted"){
-                    var note = new Notification("Sizga kerakli maxsulot qo'shildi.",{
-                        badge : "32",
-                        body : "SIz izlagan Intel Core i9 processori eng arzon narxda saytimizga joylandi . Shoshiling ! Mahsulot soni cheklangan . ",
-                        dir : "ltr",
-                        image : "https://media.istockphoto.com/photos/new-email-icon-on-white-background-picture-id1256813127",
-                        renotify : true,
-                        silent : false,
-                        tag : "tag1"
-                    });
-                    alert("Granted")
-                    note.dispatchEvent("show")
-                }
-            })
+            Push.create("sdfgsdfg")
         }
+    
     </script>
 </body>
 </html>
